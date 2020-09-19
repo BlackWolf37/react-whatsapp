@@ -34,7 +34,7 @@
 .sidebar__header {
     display: flex;
     justify-content: space-between;
-    padding: 20px; 
+    padding: 13px 20px; 
     border-right: 1px solid lightgrey;
 }
 
@@ -43,6 +43,12 @@
     align-items: center;
     justify-content: space-between;
     min-width: 10vw;
+}
+
+.sidebar__chats {
+    flex: 1;
+    background-color: #fff;
+    overflow: auto;    
 }
 
 /* .sidebar__headerRight .MuiSvgIcon-root{
